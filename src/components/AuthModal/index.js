@@ -35,7 +35,7 @@ const AuthModal = ({
 
   return (
     <>
-      <Button onClick={handleClickOpen}>
+      <Button onClick={handleClickOpen} variant="contained">
         {buttonText}
       </Button>
       <Dialog
@@ -94,10 +94,10 @@ const AuthModal = ({
           </Box>
         </DialogContent>
         <DialogActions>
-          <Button autoFocus onClick={handleClose}>
+          <Button autoFocus onClick={handleClose} variant="contained">
             Cancel
           </Button>
-          <Button onClick={handleClose} autoFocus>
+          <Button onClick={handleClose} autoFocus variant="contained">
             Login
           </Button>
         </DialogActions>

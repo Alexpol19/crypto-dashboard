@@ -13,12 +13,11 @@
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
     "ccxt": "^1.76.16",
-    "clsx": "1.1.1",
     "date-fns": "2.25.0",
     "prop-types": "15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "4.0.3",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
